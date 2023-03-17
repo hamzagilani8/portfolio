@@ -27,7 +27,7 @@ const Hero = () => {
             <div>
             <div className='bg-right-top bg-gradient-to-r from-blue-light to-white-light rounded-full w-96 h-96 -z-20 ml-36 -mt-40'>
                 </div>
-                <Image src={'/dp.jpg'} alt={''} width="450" height="450" className='rounded-full z-10 -mt-80' />
+                <Image src={'/Dp.jpg'} alt={''} width="450" height="450" className='rounded-full z-10 -mt-80' />
             </div>
         </div>
     )
