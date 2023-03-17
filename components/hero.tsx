@@ -4,8 +4,8 @@ import { PhoneIcon, EnvelopeIcon } from '@heroicons/react/24/solid'
 
 const Hero = () => {
     return (
-        <div className='flex flex-row justify-around mt-32'>
-            <div className='flex-col justify-start pl-32'>
+        <div className='flex flex-row justify-around mt-40'>
+            <div className='flex-col justify-start pl-32 -mt-28'>
                 <div className='text-sm font-barlow font-light text-grey mb-20'>
                     <p>HELLO, MY NAME IS</p>
                     <p>________</p>
@@ -25,7 +25,9 @@ const Hero = () => {
 
             </div>
             <div>
-                <Image src={'/dp.jpg'} alt={''} width="650" height="650" className='rounded-full -mt-40' />
+            <div className='bg-right-top bg-gradient-to-r from-blue-light to-white-light rounded-full w-96 h-96 -z-20 ml-36 -mt-40'>
+                </div>
+                <Image src={'/dp.jpg'} alt={''} width="450" height="450" className='rounded-full z-10 -mt-80' />
             </div>
         </div>
     )

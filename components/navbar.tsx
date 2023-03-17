@@ -9,7 +9,8 @@ const Navbar = () => {
                 <Image src={'/favicon.ico'} alt={''} width = "120" height="100"/>
             </div>
             <div className='flex align-middle justify-center'>
-                <ul className='flex flex-row space-x-10 font-display font-normal text-base'>
+                
+                <ul className='flex flex-row space-x-10 font-barlow font-normal text-base'>
                     <li className='hover:border-t-2 hover:text-blue border-blue pt-10'>
                         <a href='/'>HOME</a>
                     </li>

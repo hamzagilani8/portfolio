@@ -1,20 +1,22 @@
 export const personalData = {
-	name: "Syed Hamza Gilani",
-	role: "Biomedical Engineer",
+	name: "Hamza Gilani",
+	role: "Web Developer",
 	contactLinks: [
-		"mailto:emailto:hamzagilani8@gmail.com",
-		"https://twitter.com/shamzagilani",
-		"https://linkedin.com/in/syedhamzagilani",
-		"https://facebook.com/S.Hamza.Gilani/",
-		"https://wa.me/923176246107/",
-		"https://github.com/hamzagilani8/",
+		{social: "E-Mail", link: "mailto:hamzagilani8@gmail.com"},
+		{social: "Twitter", link: "https://twitter.com/shamzagilani"},
+		{social: "LinkedIn", link: "https://linkedin.com/in/syedhamzagilani"},
+		{social: "Facebook", link: "https://facebook.com/S.Hamza.Gilani/"},
+		{social: "Whatsapp", link: "https://wa.me/923176246107/"},
+		{social: "Github", link: "https://github.com/hamzagilani8/"},
 	],
 };
 
 export const aboutMe = {
 	title: "About Me",
 	body: [
-		"As a Biomedical engineer with extensive experience in frontend and fullstack development, as well as electronics and IoT projects using Arduino, I am a versatile and highly skilled professional with a passion for innovation and problem-solving. My technical expertise and creativity allow me to develop effective solutions that meet the needs of clients and users alike, and I have a proven track record of delivering high-quality projects on time and within budget. With a strong focus on collaboration and communication, I am able to work effectively in both team and individual settings, and I am always looking for new challenges and opportunities to learn and grow.",
+		"I am an enthusiastic web developer based in Pakistan, with a rich experience of over 5+ years in website design & development.",
+		"As a Biomedical engineer with extensive experience in frontend and fullstack development, as well as electronics and IoT projects using Arduino, I am a versatile and highly skilled professional with a passion for innovation and problem-solving.",
+		"My technical expertise and creativity allow me to develop effective solutions that meet the needs of clients and users alike, and I have a proven track record of delivering high-quality projects on time and within budget. With a strong focus on collaboration and communication, I am able to work effectively in both team and individual settings, and I am always looking for new challenges and opportunities to learn and grow.",
 	],
 };
 
@@ -48,46 +50,75 @@ export const educationalData = {
 	],
 }
 
-export const skills = {
-	Soft: [
-		{ icon: "👂🏼", text: "Active Listening" },
-		{ icon: "💬", text: "Effective Communication" },
-		{ icon: "👥", text: "Collaboration" },
-		{ icon: "⽓", text: "Teamwork" },
-		{ icon: "💡", text: "Creative Problem Solving" },
-		{ icon: "⌛️", text: "Time management" },
-	],
-	Hard: [
-		{ icon: "💻", text: "Python" },
-		{ icon: "ʦ", text: "TypeScript" },
-		{ icon: "🚀", text: "React" },
-		{ icon: "💾", text: "SQL" },
-		{ icon: "💾", text: "noSQL" },
-		{ icon: "📈", text: "Data Structures and Algorithms" },
-	],
+export const services = {
+	service: [
+		{
+			title: "UI/UX Design",
+			icon: "/UiUxIcon.png",
+			desc: "An effective UI/UX is what captures attention and spreads a clear message. I make sure the design is innovative and neat with all of this."
+		},
+		{
+			title: "Web Development",
+			icon: "/webDevIcon.png",
+			desc: "If you are looking for a developer who’ll take over the research and development of your website, I am a well-established professional to help you with this.",
+		},
+		{
+			title: "App Development",
+			icon: "/appDevIcon.png",
+			desc: "If you are looking for a user-friendly app that will attract more mobile users, I can help you design and build a platform with the latest and trendiest look and feel."
+		}
+	]
+}
+
+export const skillsData = {
+	skill: [
+		
+		{ skill: "Figma", level: "70%", width: "w-2/3" },
+		{ skill: "UI/UX design", level: "60%", width: "w-3/5" },
+		{skill: "Javascript", level: "70%", width: "w-2/3"},
+		{ skill: "Typescript", level: "65%", width: "w-3/5"},
+		{ skill: "Next.Js 13", level: "50%", width: "w-1/2"},
+		{ skill: "API Development", level: "60%", width: "w-3/5" },
+		{ skill: "Wordpress", level: "80%", width: "w-4/5" },
+		
+	]
 };
 
-export const professionalData = {
-	title: "Professional Experience",
-	experiences: [
+export const experience = {
+	experience:[
 		{
-			role: "Data Scientist, Acme Inc. (2021-Present)",
-			description:
-				"Design and implement machine learning models to analyze large datasets and drive business decisions. Collaborate with cross-functional teams to develop and launch new products and features. Provide technical guidance and mentorship to junior data scientists. Conduct regular presentations to stakeholders on the findings and insights generated from data analysis.",
-			current: true,
-		},
+		duration: "2015-2018", 
+		position: "LEAD UI/UX DESIGNER", 
+		company: "ACME Company",
+		desc: "I have responsibly led a team of 12 designers to help, supervise and approve their designs to make sure it matches client expectations and latest design standards.", 
+	},
+	{
+		duration: "2018-To date", 
+		position: "WEB DEVELOPER", 
+		company: "Freelancing",
+		desc: "I was responsible for all the in-house and client-based web development assignments. I take pride in having helped the best of clients and getting maximum ratings for the company.", 
+	},
+	{
+		duration: "2021-2022", 
+		position: "LEAD UI/UX DESIGNER", 
+		company: "Pak Company",
+		desc: "I have responsibly led a team of 12 designers to help, supervise and approve their designs to make sure it matches client expectations and latest design standards.", 
+	},
+	]
 
-		{
-			role: "Machine Learning Engineer, XYZ Corp. (2019-2021)",
-			description:
-				"Designed and implemented advanced machine learning algorithms to improve predictive accuracy and performance. Built and maintained scalable machine learning infrastructure using cloud computing platforms. Conducted data exploratory analysis to identify potential use cases and opportunities. Participated in regular code reviews to maintain high quality standards.",
-			current: false,
-		},
-		{
-			role: "Machine Learning Engineer, ABX Corp. (2020-2021)",
-			description:
-				"Designed and implemented advanced machine learning algorithms to improve predictive accuracy and performance. Built and maintained scalable machine learning infrastructure using cloud computing platforms. Conducted data exploratory analysis to identify potential use cases and opportunities. Participated in regular code reviews to maintain high quality standards.",
-			current: false,
-		},
-	],
+};
+
+export const portfolio = {
+	work:[
+		"/work1.png",
+		"/work2.png",
+		"/work3.png",
+		"/work4.png",
+		"/work5.png",
+		"/work6.png",
+		"/work7.png",
+		"/work8.png",
+		"/work9.png"
+	]
+
 };

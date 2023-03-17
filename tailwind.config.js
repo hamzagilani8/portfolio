@@ -17,7 +17,7 @@ module.exports = {
 			white: "#fff",
 		},
     fontFamily: {
-			barlow: ["Barlow Semi Condensed", "sans-serif"],
+			barlow: ["Barlow", "sans-serif"],
 			roboto: ["Roboto", "sans-serif"],
 			display: ['Playfair Display', "serif"],
 		},
@@ -32,7 +32,7 @@ module.exports = {
 			"5xl": "3.052rem",
 			"6xl": "3.5rem",
 			"7xl": "4.08rem",
-			"8xl": "4.5rem",
+			"8xl": "6rem",
 		},
     extend: {
       screens: {
